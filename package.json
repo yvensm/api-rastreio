@@ -1,0 +1,26 @@
+{
+  "name": "api-rastreio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.40.0",
+    "rastrojs": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.hostweb.com.br/yvens.martins/api-rastreio.git"
+  },
+  "keywords": [
+    "rastreio",
+    "correios"
+  ],
+  "author": "Hostweb",
+  "license": "ISC"
+}
