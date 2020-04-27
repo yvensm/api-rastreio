@@ -8,11 +8,7 @@ var sendTimestamp=0;
 
 bot.on("text", (msg) => {
   if (msg.text === "getlog") {
-    const today = new Date();
-    const dateString = `${today.getDate()}-${
-      today.getMonth() + 1
-    }-${today.getFullYear()}`;
-    
+    bot.sendMessage(1012984034, "Tudo certo!");
   }
 });
 
