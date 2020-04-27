@@ -1,0 +1,23 @@
+{
+ "apps" : [
+ {
+   "name": "api",
+   "script": "./src/index.js",
+   "env_production": {
+     "NODE_ENV": "production",
+   }
+ }],
+
+ "deploy": {
+   "production": {
+     "key": "github",
+     "user": "yvens",
+     "host": ["192.168.100.18"],
+     "ref": "origin/master",
+     "repo": "git@github.com:yvensm/api-rastreio.git",
+     "path": "/home/yvens/api-rastreio/deploy",
+     "post-deploy" : "mkdir -p logs && npm install && pm2 startOrRestart ecosys.json --env production",
+     "pre-deploy-local" : "echo ‘Deploying code to servers’"
+   }
+ }
+}
