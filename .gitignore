@@ -1,0 +1,7 @@
+/node_modules
+<<<<<<< HEAD
+/src/log
+=======
+/logs
+.idea
+>>>>>>> 6e50a926a6ffa05115aecca2885ce46cdb4a8a48
